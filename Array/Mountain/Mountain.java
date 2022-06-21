@@ -4,6 +4,7 @@ class Mountain {
 
         int largest = 0;
 
+        // start from 1 and end till n-2 important
         for (int i = 1; i < num.length - 2;) {
 
             // find peak
